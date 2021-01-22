@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.updateCustomerInfo">
+      <class name="TestCases.merchantSignUpTest">
         <methods>
-          <include name="updateCustomerInfoCheck"/>
-          <include name="closePage"/>
+          <include name="signUpStart"/>
         </methods>
-      </class> <!-- TestCases.updateCustomerInfo -->
+      </class> <!-- TestCases.merchantSignUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
